@@ -1,0 +1,293 @@
+ /* *{ 
+    border: 1px solid red;
+}      */
+
+body{ 
+    font-family: 'Raleway', sans-serif;
+    /* background-color: skyblue; */
+    box-sizing: border-box;
+}
+.master{ 
+    background: rgb(0,203,255);
+    background: linear-gradient(180deg, rgba(0,203,255,1) 0%, rgba(98,109,255,1) 100%);
+    padding-bottom: 20px;
+}
+
+.header{ 
+    /* background-color: gray; */
+    height: 100px;
+    margin-top: 20px;
+}
+
+.header .logo img:hover{ 
+    box-shadow: 10px 20px 30px 10px;
+    border-radius: 1px 40px 1px;
+    transition: 0.5s;
+    background: rgb(0,228,255);
+    background: linear-gradient(180deg, rgba(0,228,255,1) 0%, rgba(255,255,255,1) 100%);
+}
+ .btw{ 
+    /* background-color: lightgray;  */
+    height: 50px;
+    margin-top: 10px;
+    
+} 
+
+.btw img{ 
+    width: 15%;
+}
+
+/* container second */
+
+.left h3{ 
+ line-height: 40px;
+ font-size: 25px;
+ font-weight: 900px;
+ float: left;
+ color: black;
+}
+
+.one a{ 
+    color:whitesmoke;
+    text-decoration: none;
+}
+
+.one {
+     border-radius: 1px 20px 1px;
+     background-color: black;
+     border: 1px solid white;
+}
+
+.right img{ 
+    width: 70%;
+    float: right; 
+    /* border-radius: 5%; */
+    border: 3px solid gray;
+     filter: brightness(120%);
+   filter: contrast(120%);
+   filter: drop-shadow(10px 10px 10px black);
+    
+    
+}
+
+.right img:hover{ 
+    box-shadow: 10px 10px 10px 0px;
+    border-radius: 50px;
+    transition: 0.5s;
+    background-color:rgb(228, 228, 228);
+}
+
+
+
+
+.master1{ 
+    width: 100%;
+    /* background-color: gray; */
+    height: 500px;
+}
+
+.custom-container{ 
+    width: 100%;
+    margin-top: 50px;
+    background: rgb(0,228,255);
+    background: linear-gradient(180deg, rgba(0,228,255,1) 0%, rgba(255,255,255,1) 100%);
+    
+}
+
+.para1 h1{
+    margin-bottom: 70px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    width: 60%;
+    font-size: 40px;
+    padding: 20px;
+    position: relative;
+    left: 30px;
+    border-radius: 1px 60px 1px;
+    margin-left: 0px;
+    
+ }
+
+
+.img1 img{ 
+    width: 100%;
+    margin-top: 60px;
+    margin-bottom: 20px;
+    padding: 10px;
+    /* padding-bottom:10px ; */
+     /* border-radius: 100%; */
+    box-sizing: border-box;
+    border: 2px solid gray;
+}
+
+.img1{ 
+margin-bottom: 50px;
+
+}
+
+.img1:hover{ 
+    box-shadow: 10px 20px 30px 10px;
+    border-radius: 1px 80px 10px;
+    transition: 0.5s;
+    background-color:rgb(228, 228, 228);
+    cursor: pointer;
+
+
+}
+
+.my-btn{ 
+    margin-bottom: 20px;
+    width: 30%;
+    height: 40px;
+    color:rgb(114, 106, 106);
+    font-weight: 500;
+    background-color: transparent;
+    border-radius: 5px 25px 5px;
+    border: 2px solid rgb(97, 96, 96);
+    font-weight: 700;
+    
+}
+
+.my-btn:hover{ 
+    /* background-color:black; */
+    color: black;
+    border-color: black;
+    border: 2px solid black;
+    
+    
+}
+
+
+/* carousel  */
+
+
+.carousel .item{ 
+    background-image: url("/img/blackshoes1.jpg");
+    width: 80%;
+    height: 70vh; 
+    background-size: cover;    
+    margin-left: 50px;
+    box-sizing: border-box;
+    border-radius: 1px 80px 1px;
+    
+
+}
+
+.carousel .item-2{ 
+   
+    background-image: url("/img/blackshoes.jpg");
+}
+
+
+.carousel .item-3{ 
+  
+    background-image: url("/img/skywhite1.png");
+}
+
+
+.carousel .item-4{ 
+  
+    background-image: url("/img/shoes\ purple.jpg");
+}
+
+
+.carousel .item-5{ 
+  
+    background-image: url("/img/blackshoes1.jpg");
+}
+
+
+
+
+
+
+
+
+
+/* media query start here*/
+
+@media only screen and (max-width:700px) { 
+
+
+    .carousel .item{ 
+        background-image: url("/img/blackshoes1.jpg");
+        width: 100%;
+        margin-top: 60px;
+        background-size: cover;
+    }
+    
+
+    .carousel .item-2{ 
+   
+        background-image: url("/img/blackshoes.jpg");
+        width: 100%;
+        background-size: cover;
+    }
+    
+    
+    .carousel .item-3{ 
+      
+        background-image: url("/img/skywhite1.png");
+        background-size: cover;
+        width: 100%;
+    }
+    
+    
+    .carousel .item-4{ 
+      
+        background-image: url("/img/shoes\ purple.jpg");
+        background-size: cover;
+        width: 100%;
+    }
+    
+    
+    .carousel .item-5{ 
+      
+        background-image: url("/img/blackshoes1.jpg");
+        background-size: cover;
+        width: 100%;
+    }
+    
+
+    
+
+    .btw img{ 
+        width: 60%;
+    }
+
+    .right img{ 
+        width: 100%;
+        margin-top: 50px;
+    }
+
+    .left h3{ 
+        font-size: 20px;
+        line-height:30px;
+        
+    }
+    .one{ 
+        text-align: center;
+    }
+    
+    .para1{ 
+        width: 100%;
+        /* margin-right: 50px; */
+         padding-left:30%;  
+    }
+
+    .para1 .para { 
+        width: 50%;
+        /* margin-left:70px; */
+    }
+
+    .para1 h1{ 
+        font-size: 17px;
+    }
+
+    /* carousel item start */
+
+   
+
+    
+}
