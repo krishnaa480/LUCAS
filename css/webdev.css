@@ -163,7 +163,7 @@ margin-bottom: 50px;
 
 
 .carousel .item{ 
-    background-image: url("/img/blackshoes1.jpg");
+    background-image: url("../img/blackshoes1.jpg");
     width: 80%;
     height: 70vh; 
     background-size: cover;    
@@ -176,25 +176,25 @@ margin-bottom: 50px;
 
 .carousel .item-2{ 
    
-    background-image: url("/img/blackshoes.jpg");
+    background-image: url("../img/blackshoes.jpg");
 }
 
 
 .carousel .item-3{ 
   
-    background-image: url("/img/skywhite1.png");
+    background-image: url("../img/skywhite1.png");
 }
 
 
 .carousel .item-4{ 
   
-    background-image: url("/img/shoes\ purple.jpg");
+    background-image: url("../img/shoes\ purple.jpg");
 }
 
 
 .carousel .item-5{ 
   
-    background-image: url("/img/blackshoes1.jpg");
+    background-image: url("../img/blackshoes1.jpg");
 }
 
 
@@ -211,7 +211,7 @@ margin-bottom: 50px;
 
 
     .carousel .item{ 
-        background-image: url("/img/blackshoes1.jpg");
+        background-image: url("../img/blackshoes1.jpg");
         width: 100%;
         margin-top: 60px;
         background-size: cover;
@@ -220,7 +220,7 @@ margin-bottom: 50px;
 
     .carousel .item-2{ 
    
-        background-image: url("/img/blackshoes.jpg");
+        background-image: url("../img/blackshoes.jpg");
         width: 100%;
         background-size: cover;
     }
@@ -228,7 +228,7 @@ margin-bottom: 50px;
     
     .carousel .item-3{ 
       
-        background-image: url("/img/skywhite1.png");
+        background-image: url("../img/skywhite1.png");
         background-size: cover;
         width: 100%;
     }
@@ -236,7 +236,7 @@ margin-bottom: 50px;
     
     .carousel .item-4{ 
       
-        background-image: url("/img/shoes\ purple.jpg");
+        background-image: url("../img/shoes\ purple.jpg");
         background-size: cover;
         width: 100%;
     }
@@ -244,7 +244,7 @@ margin-bottom: 50px;
     
     .carousel .item-5{ 
       
-        background-image: url("/img/blackshoes1.jpg");
+        background-image: url("../img/blackshoes1.jpg");
         background-size: cover;
         width: 100%;
     }
