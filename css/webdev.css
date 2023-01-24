@@ -1,7 +1,6 @@
- /* *{ 
+/* *{ 
     border: 1px solid red;
-}      */
-
+}     */
 body{ 
     font-family: 'Raleway', sans-serif;
     /* background-color: skyblue; */
@@ -23,8 +22,8 @@ body{
     box-shadow: 10px 20px 30px 10px;
     border-radius: 1px 40px 1px;
     transition: 0.5s;
-    background: rgb(0,228,255);
-    background: linear-gradient(180deg, rgba(0,228,255,1) 0%, rgba(255,255,255,1) 100%);
+    background: rgb(0,203,255);
+    background: linear-gradient(180deg, rgba(0,203,255,1) 0%, rgba(98,109,255,1) 100%);
 }
  .btw{ 
     /* background-color: lightgray;  */
@@ -56,24 +55,33 @@ body{
      border-radius: 1px 20px 1px;
      background-color: black;
      border: 1px solid white;
+     transition-duration: 0.5s;
+     transition-property: all;
+}
+
+.one:hover{ 
+    background: rgb(0,203,255);
+    background: linear-gradient(180deg, rgba(0,203,255,1) 0%, rgba(98,109,255,1) 100%);
 }
 
 .right img{ 
     width: 70%;
     float: right; 
-    /* border-radius: 5%; */
+     border-top-left-radius: 80px;
+     border-top-right-radius: 0px;
+     border-bottom-right-radius: 80px;
     border: 3px solid gray;
-     filter: brightness(120%);
-   filter: contrast(120%);
-   filter: drop-shadow(10px 10px 10px black);
-    
+     /* filter: brightness(120%);
+    filter: contrast(120%);
+   filter: drop-shadow(10px 10px 10px black); */
+     
     
 }
 
 .right img:hover{ 
-    box-shadow: 10px 10px 10px 0px;
-    border-radius: 50px;
-    transition: 0.5s;
+    /* box-shadow: 10px 10px 10px 0px; */
+    /* border-radius: 50px; */
+    /* transition: 0.5s; */
     background-color:rgb(228, 228, 228);
 }
 
@@ -87,24 +95,30 @@ body{
 }
 
 .custom-container{ 
-    width: 100%;
-    margin-top: 50px;
-    background: rgb(0,228,255);
-    background: linear-gradient(180deg, rgba(0,228,255,1) 0%, rgba(255,255,255,1) 100%);
-    
+    /* width: 100%; */
+    margin-top: 0px;
+   
 }
 
+.custom-container1{ 
+    /* width: 100%; */
+    background: rgb(0,203,255);
+    background: linear-gradient(180deg, rgba(0,203,255,1) 0%, rgba(98,109,255,1) 100%);
+}
+
+
+
 .para1 h1{
-    margin-bottom: 70px;
+    margin-bottom: 50px;
     text-align: center;
     background-color: black;
     color: white;
     width: 60%;
     font-size: 40px;
     padding: 20px;
-    position: relative;
-    left: 30px;
-    border-radius: 1px 60px 1px;
+     position: relative;
+    left: 30px; 
+    border-radius: 1px 40px 1px;
     margin-left: 0px;
     
  }
@@ -123,6 +137,9 @@ body{
 
 .img1{ 
 margin-bottom: 50px;
+transition-property: all;
+transition-duration: 1s;
+transition-timing-function: ease-in-out;
 
 }
 
@@ -132,7 +149,7 @@ margin-bottom: 50px;
     transition: 0.5s;
     background-color:rgb(228, 228, 228);
     cursor: pointer;
-
+    transform: scale(0.9);
 
 }
 
@@ -140,7 +157,7 @@ margin-bottom: 50px;
     margin-bottom: 20px;
     width: 30%;
     height: 40px;
-    color:rgb(114, 106, 106);
+    color:rgb(0, 0, 0);
     font-weight: 500;
     background-color: transparent;
     border-radius: 5px 25px 5px;
@@ -163,46 +180,163 @@ margin-bottom: 50px;
 
 
 .carousel .item{ 
-    background-image: url("../img/blackshoes1.jpg");
-    width: 80%;
-    height: 70vh; 
+    /* background-image: url("../img/blackshoes1.jpg"); */
+    width: 100%;
+    height: 50vh; 
     background-size: cover;    
-    margin-left: 50px;
+    margin-left: 10px;
     box-sizing: border-box;
-    border-radius: 1px 80px 1px;
+    /* border-radius: 1px 80px 1px; */
     
 
 }
 
-.carousel .item-2{ 
+/* container third start */
+
+#container-third{ 
+    background: rgb(0,203,255);
+    background: linear-gradient(180deg, rgba(0,203,255,1) 0%, rgba(98,109,255,1) 100%);
+    padding: 15px;
+}
+
+.container-third1{ 
+    margin-top: 40px;
+}
+
+.container-third1 p{ 
+    padding-top: 30px;
+    text-align: justify;
+    color: white;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+/* container third end */
+
+/* four container start */
+
+#collection-of-shoes{ 
+    border-top-left-radius: 80px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 80px;
+}
+
+#purple-shoes{ 
+    border-top-left-radius: 80px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 80px;
+}
+
+#four-container{ 
+    padding: 20px;
+    background: rgb(0,203,255);
+    background: linear-gradient(180deg, rgba(0,203,255,1) 0%, rgba(98,109,255,1) 100%);
+}
+
+/* four container end */
+
+
+/* five container start  */
+
+#five-container{ 
+    /* height: 400px; */
+    background-color: rgb(226, 239, 251);
+}
+
+#five-container1{ 
+    margin-top:30px ;
+    margin-bottom: 30px;
+}
+
+#five-container h3{ 
+    font-size: 30px;
+}
+
+#five-container h1{ 
+    font-size: 50px;
+    font-weight: 1000;
+    
+}
+
+
+#five-container p{ 
+    font-size: 17px;
+    font-weight: 600;
+    margin-top: 17px;
+    color: gray;
+    
+}
+
+/* five container end */
+
+#lord-icon{ 
+    /* background-color: red; */
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    float: left;
    
-    background-image: url("../img/blackshoes.jpg");
+}
+
+#text-email{ 
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 40px;
+    
+}
+
+#mobile-no{ 
+    width: 32%;
+    margin: 0 auto;
+    margin-top:10px ;
+    
+    
+}
+
+.text-area{ 
+    margin-top: 20px;
+    width: 100%;
+    height: 130px;
+}
+
+#mobile-no .button1{ 
+   
+    color: white;
+    background: rgb(0,203,255);
+    background: linear-gradient(180deg, rgba(0,203,255,1) 0%, rgba(98,109,255,1) 100%);
+    margin-top: 10px;
+    border:0;
+    border-radius: 100px;
+    padding: 10px;
+    transition-duration: 1s;
+    transition-timing-function: ease;
+    animation-duration:krishna 1s;
+    animation-name: my-animation;
+    
+
 }
 
 
-.carousel .item-3{ 
-  
-    background-image: url("../img/skywhite1.png");
+#mobile-no .button1:hover{ 
+    color: white;
+    transform: scale(0.9);
 }
 
 
-.carousel .item-4{ 
-  
-    background-image: url("../img/shoes\ purple.jpg");
+.input input{ 
+    /* background-color: red; */
+    float: left;
+    margin-top: 20px;
+    height: 40px;
+    width: 20%;
+    margin-right: 20px;
+    border: 0;
+    border-radius: 80px;
+    padding: 10px;
+    border: 1px solid skyblue;
 }
-
-
-.carousel .item-5{ 
-  
-    background-image: url("../img/blackshoes1.jpg");
-}
-
-
-
-
-
-
-
 
 
 /* media query start here*/
@@ -211,7 +345,7 @@ margin-bottom: 50px;
 
 
     .carousel .item{ 
-        background-image: url("../img/blackshoes1.jpg");
+        /* background-image: url("../img/blackshoes1.jpg"); */
         width: 100%;
         margin-top: 60px;
         background-size: cover;
@@ -220,7 +354,7 @@ margin-bottom: 50px;
 
     .carousel .item-2{ 
    
-        background-image: url("../img/blackshoes.jpg");
+        /* background-image: url("../img/blackshoes.jpg"); */
         width: 100%;
         background-size: cover;
     }
@@ -228,7 +362,7 @@ margin-bottom: 50px;
     
     .carousel .item-3{ 
       
-        background-image: url("../img/skywhite1.png");
+        /* background-image: url("../img/skywhite1.png"); */
         background-size: cover;
         width: 100%;
     }
@@ -236,7 +370,7 @@ margin-bottom: 50px;
     
     .carousel .item-4{ 
       
-        background-image: url("../img/shoes\ purple.jpg");
+        /* background-image: url("../img/shoes\ purple.jpg"); */
         background-size: cover;
         width: 100%;
     }
@@ -244,7 +378,7 @@ margin-bottom: 50px;
     
     .carousel .item-5{ 
       
-        background-image: url("../img/blackshoes1.jpg");
+        /* background-image: url("../img/blackshoes1.jpg"); */
         background-size: cover;
         width: 100%;
     }
@@ -276,13 +410,10 @@ margin-bottom: 50px;
          padding-left:30%;  
     }
 
-    .para1 .para { 
-        width: 50%;
-        /* margin-left:70px; */
-    }
-
     .para1 h1{ 
         font-size: 17px;
+        position: relative;
+        left: 0px; 
     }
 
     /* carousel item start */
